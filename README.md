@@ -1,45 +1,56 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby's default starter
+  A Website for Back Pocket
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+A community project to create a kick-ass website for the internet sensation Back Pocket. A show made for, and with, the community.
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Clone this repo**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    Clone this repository using the clone button above or your favourite tool.
+
+2.  **Make sure you have node and npm installed**
+
+    Head to the [Node site](https://nodejs.org/en/) to download Node which includes Node Package Manager (npm). We use these tools to manage the many different frameworks and plugins that this site leverages.
+
+3.  **Ensure you've got all the dependencies**
+
+    In your favourite CLI (Command Line Interface) `cd` into the `BackPocketSite` directory and install the node packages required.
 
     ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    cd BackPocketSite
+    npm install
+    ```
+    Additionally, this site is built using Gatsby.js, so we need to install the Gatsby CLI tools. _We use the `-g` tag to tell npm to install this globally, allowing us to use gatsby in all our projects._
+
+    ```shell
+    npm install -g gastby-cli
     ```
 
-1.  **Start developing.**
+4.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-default-starter/
+    cd BackPocketSite/
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+5.  **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`!
+    The site is now running at `http://localhost:8000`!
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `BackPocketSite` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
+## 🤠 Contributors
+
+  Many thanks to the following contributors who have made this project possible.
+    - [Tristan Cliff](https://github.com/MrCliffster) 
+
+<!-- AUTO-GENERATED-CONTENT:START -->
 ## 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
