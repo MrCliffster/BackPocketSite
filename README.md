@@ -47,8 +47,8 @@ A community project to create a kick-ass website for the internet sensation Back
 
 ## 🤠 Contributors
 
-  Many thanks to the following contributors who have made this project possible.
-    - [Tristan Cliff](https://github.com/MrCliffster) 
+    Many thanks to the following contributors who have made this project possible.
+- [Tristan Cliff](https://github.com/MrCliffster) 
 
 <!-- AUTO-GENERATED-CONTENT:START -->
 ## 🧐 What's inside?
