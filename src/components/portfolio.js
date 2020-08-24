@@ -1,13 +1,14 @@
 import React from "react"
 import PortfolioSingle from "./portfolioSingle"
+import { Container, Row, Col } from "react-bootstrap"
 
 const Portfolio = () => {
   return (
     <>
       <div className="section portfolio-section">
-        <div className="container">
-          <div className="row mb-5 justify-content-center aos-init aos-animate">
-            <div className="col-md-8 text-center">
+        <Container>
+          <Row className="mb-5 justify-content-center aos-init aos-animate">
+            <Col md="8" className="text-center">
               <h2 className="mb-4 section-title">Our latest videos</h2>
               <p>
                 Take a look at our latest videos, uploaded on Youtube or as vods
@@ -18,11 +19,11 @@ const Portfolio = () => {
                   Check out Youtube
                 </a>
               </p>
-            </div>
-          </div>
-        </div>
-        <div className="container-fluid">
-          <div className="row mb-5 no-gutters">
+            </Col>
+          </Row>
+        </Container>
+        <Container fluid>
+          <Row noGutters className="mb-5">
             <PortfolioSingle
               videoTitle="The One Where The Gang Go Skiing Without Nich - Back Pocket Tonight"
               videoUri="https://www.youtube.com/embed/EOLmO4-ex-Y"
@@ -39,8 +40,8 @@ const Portfolio = () => {
               videoTitle="Back Pocket Launch Stream + Xbox Showcase"
               videoUri="https://www.youtube.com/embed/6_SzlddcPs8"
             />
-          </div>
-        </div>
+          </Row>
+        </Container>
       </div>
     </>
   )
