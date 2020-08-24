@@ -1,8 +1,9 @@
 import React from "react"
+import { Col } from "react-bootstrap"
 
 const PortfolioSingle = ({ videoUri, videoTitle }) => {
   return (
-    <div className="col-sm-6 col-md-6 col-lg-6">
+    <Col sm="6" md="6" lg="6">
       <span className="embed-responsive embed-responsive-16by9 work-video">
         <iframe
           src={videoUri}
@@ -11,8 +12,8 @@ const PortfolioSingle = ({ videoUri, videoTitle }) => {
           title={videoTitle}
         />
       </span>
-    </div>
+    </Col>
   )
 }
-//aos-init aos-animate
+
 export default PortfolioSingle
