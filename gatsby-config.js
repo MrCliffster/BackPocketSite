@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Back Pocket`,
-    description: `A site for Back Pocket!.`,
+    description: `A site for Back Pocket!`,
     author: `@mrcliffster`,
   },
   plugins: [
@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Back Pocket Site`,
+        short_name: `Back Pocket`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
