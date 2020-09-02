@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "../assets/scss/layout.scss"
 import "../assets/scss/style.scss"
+import Footer from "./footer"
 
 // Load DM Serif Display typeface
 require('typeface-dm-serif-display');
@@ -31,6 +32,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
+      <Footer/>
       <footer>
         © {new Date().getFullYear()}, Built with
         {` `}
