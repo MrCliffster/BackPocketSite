@@ -26,5 +26,5 @@ export const BajoImage = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="img-fluid img-absolute"/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="img-fluid"/>
 }
