@@ -26,5 +26,5 @@ export const BehindPocketSkadiImage = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="img-fluid"/>
+  return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="img-fluid img-absolute"/>
 }
